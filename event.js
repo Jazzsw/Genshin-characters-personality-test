@@ -413,7 +413,7 @@ final.className = 'question'
    document.body.appendChild(final)
     }
    var res = document.createElement('h2')
-   var txt = document.createTextNode(winners[k])
+   var txt = document.createTextNode('-' + winners[k])
    res.style.color = '#011638'
    res.appendChild(txt)
    document.body.appendChild(res)
