@@ -1,0 +1,213 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Inpact Personality Test</title>
+
+<style>
+
+body{ 
+    font-family: Garamond, serif;
+}
+#header{
+    font-size: 35px;
+    text-align: center;
+    color: #6C6EA0;
+} #subheader{
+    text-align: center;
+    color: #011638;
+}
+
+#wallpaper{
+    width:100%;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container .img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  background-color: #6C6EA0;
+  color: #C1CAD6;
+  font-size: 100%;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+}
+.container .btn:hover {
+  background-color: #011638;
+ 
+}
+
+
+
+.button{
+  background-color: #6C6EA0;
+  color: #C1CAD6;
+  font-size: 100%;
+  padding: 12px 24px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}.button:hover {
+  background-color: #011638;
+}
+
+.question{
+    font-size: 35px;
+    text-align: center;
+    color: #6C6EA0;
+
+}
+.btnCon{
+margin: auto;
+width: 60%;
+padding: 10px;
+align-items: center ;
+justify-content: center;
+display:flex;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<!--====Main Page====-->
+<img id='logo' src= 'images/Genshin_Impact_logo.svg.png' alt='genshin inpact logo' href='#'>  
+<div id = 'fullScreen'>                                   
+<h2 id = 'header'>Welcome to the Genshin Impact Personality Test!</h2>
+<h3 id = 'subheader'>Find out which Genshin Impact character you are most like!</h3>
+
+<div id='mainpage' class='container'>
+<img id ='wallpaper' src= 'images/genshinWallpapewr.png' alt = 'genshin wallpaper' href='#'>
+<button class='btn' id='takeQuiz'>Take Quiz!</button>
+</div>
+
+</div>
+
+
+<!--======page 2 ==========-->
+<div id = 'page2'>
+<h1 id = 'p2Head' class='question'>Pick Your Favorite Nation</h1>
+<img id ='wallpaper' src= 'images/genshinWallpaper2.jpg' alt = 'genshin landscape' href='#'>
+<div class = 'btnCon'>
+<button id = 'mondstat' class='button'>Mondstadt</button>
+<button id = 'liyue' class='button'>Liyue</button>
+<button id = 'inazuma' class='button'>Inazuma</button>
+<button id = 'other' class='button'>Other (Snezhnaya, Another World etc.)</button>
+</div>
+</div>
+
+
+
+<!--page 3-->
+<div id = 'page3'>
+    <h1 id = 'p3Head' class='question'>Do You Belive in Law and Order</h1>
+    <img id ='wallpaper' src= 'images/genshinWallpaper3.jpg' alt = 'genshin innazuma guards' href='#'>
+    <div class = 'btnCon'>
+    <button id = 'yes' class='button'>Yes, order keeps us safe.</button>
+    <button id = 'no' class='button'>No! laws oppress people and order is the enforcement of the will of those in power!</button>
+    <button id = 'dontCare' class='button'>I Don't Care</button>
+    </div>
+    </div>
+
+    <!--======page 4 ==========-->
+<div id = 'page4'>
+    <h1 id = 'p4Head' class='question'>What Can You Rely on in a Tricky Situation?</h1>
+    <img id ='wallpaper' src= 'images/genshinWallpaper4.jpg' alt = 'genshin ruin gard atack' href='#'>
+    <div class = 'btnCon'>
+    <button id = 'wit' class='button'>My Wit</button>
+    <button id = 'combat' class='button'>My Combat Skill</button>
+    <button id = 'friends' class='button'>My Friends</button>
+    <button id = 'magic' class = 'button'>My Magic</button>
+    </div>
+    </div>
+
+     <!--======page 5 ==========-->
+<div id = 'page5'>
+    <h1 id = 'p5Head' class='question'>What Do You Do In Your Free Time?</h1>
+    <img id ='wallpaper' src= 'images/genshinWallpaper5.jpg' alt = 'sayu' href='#'>
+    <div class = 'btnCon'>
+    <button id = 'explore' class='button'>Go exploring and look for new places!</button>
+    <button id = 'study' class='button'>Study or work</button>
+    <button id = 'sleep' class='button'>Sleep/laze around</button>
+    <button id = 'skill' class = 'button'>Practice a skill you really enjoy</button>
+    </div>
+    </div>
+
+
+       <!--======page 6 ==========-->
+<div id = 'page6'>
+    <h1 id = 'p6Head' class='question'>What is Your Zodiac Element?</h1>
+    <img id ='wallpaper' src= 'images/genshinWallpaper6.jpg' alt = 'banner' href='#'>
+    <div class = 'btnCon'>
+    <button id = 'fire' class='button'>Fire (Aries, Leo, Sagittarius)</button>
+    <button id = 'water' class='button'>Water (Cancer, Scorpio, Pisces)</button>
+    <button id = 'air' class='button'>Air (Libra, Aquarius, Gemini)</button>
+    <button id = 'earth' class = 'button'>Earth (Capricorn, Taurus, Virgo)</button>
+    </div>
+    </div>
+
+
+
+<script>
+var takeQuiz = document.getElementById('takeQuiz')
+var mainPage = document.getElementById('fullScreen')
+//page 2
+var page2 = document.getElementById('page2')
+var mondstat = document.getElementById('mondstat')
+var liyue = document.getElementById('liyue')
+var inazuma = document.getElementById('inazuma')
+var other = document.getElementById('other')
+page2.style.display = 'none'
+
+//page 3
+var page3 = document.getElementById('page3')
+var yes = document.getElementById('yes')
+var no = document.getElementById('no')
+var dontcare = document.getElementById('dontcare')
+page3.style.display = 'none'
+
+//page 4
+var page4 = document.getElementById('page4')
+var wit = document.getElementById('wit')
+var combat = document.getElementById('combat')
+var friends = document.getElementById('friends')
+var magic = document.getElementById('magic')
+page4.style.display = 'none'
+
+//page 5
+var page5 = document.getElementById('page5')
+var explore = document.getElementById('explore')
+var study = document.getElementById('study')
+var sleep = document.getElementById('sleep')
+var skill = document.getElementById('skill')
+page5.style.display = 'none'
+
+//page 6
+var page6 = document.getElementById('page6')
+var earth = document.getElementById('earth')
+var air = document.getElementById('air')
+var water = document.getElementById('water')
+var fire = document.getElementById('fire')
+page6.style.display = 'none'
+
+</script>
+
+<script src = "arrays.js"></script>
+<script src = "event.js"></script>
+    
+</body>
+</html>

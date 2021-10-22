@@ -1,0 +1,56 @@
+var chObj = {
+
+    albedo:{
+        1: 'monstat',
+        2: 'no'
+    },
+    
+    1:{
+        1: 'no'
+
+    }
+
+}
+
+var albedo = []
+var aloy = []
+var amber = []
+var barbara = []
+var beidou = []
+var bennett = []
+var chongyun = []
+var diluc = []
+var diona = []
+var eula = []
+var fischl = []
+var ganyu = []
+var hutao = []
+var jean = []
+var kazuha = []
+var kaeya = []
+var ayaka = []
+var keqing = []
+var klee = []
+var sara = []
+var lisa = []
+var mona = []
+var ningguang = []
+var noelle = []
+var qiqi = []
+var shogun = []
+var razor = []
+var rosaria = []
+var kokomi = []
+var sayu = []
+var sucrose = []
+var childe = []
+var traveler = []
+var venti = []
+var xiangling = []
+var xiao = []
+var xingqiu = []
+var xingyan = []
+var yanfei = []
+var yoimiya = []
+var zhongli = []
+
