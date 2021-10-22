@@ -248,6 +248,7 @@ lol.addEventListener('click', function(){
     lolh.appendChild(loltxt)
     lolh.style.textAlign = 'center'
     lolh.color ='#6C6EA0'
+    document.body.appendChild(lolh)
 })
  }
 
