@@ -241,7 +241,7 @@ six()
 })
 
 
-localStorage.addEventListener('click', function(){
+lol.addEventListener('click', function(){
     page5.style.display = 'none'
     var lolh = document.createElement('h2')
     var loltxt = document.createTextNode('Good for u. No need to continue, you are 100% Okremias')
