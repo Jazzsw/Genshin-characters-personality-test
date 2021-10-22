@@ -388,14 +388,37 @@ numbers.push(yoimiya.length)
 names.push('zhongli')
 numbers.push(zhongli.length)
 
-var max = (Math.max(numbers))
+console.log(numbers)
+
+var max = (Math.max(...numbers))
+console.log(max)
 var winners = []
+var winnum = []
+
 
 for(var j = 0; j<numbers.length; j++){
     if(numbers[j] == max){
         winners.push(names[j])
+        winnum.push((max/5)*100)
     }
 }
 
+
+for(var k = 0; k<winners.length; k++){
+    if(k==0){
+var final = document.createElement('h3')
+   var txt0 = document.createTextNode('You are most like') 
+final.className = 'question'
+   final.appendChild(txt0)
+   document.body.appendChild(final)
+    }
+   var res = document.createElement('h4')
+   var txt = document.createTextNode(winners[k])
+   res.appendChild(txt)
+   document.body.appendChild(res)
+
+}
+console.log(winners)
+console.log(winnum)
 
  }
