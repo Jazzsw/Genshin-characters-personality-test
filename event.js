@@ -239,6 +239,16 @@ yoimiya.push(1)
 sara.push(1)
 six()
 })
+
+
+localStorage.addEventListener('click', function(){
+    page5.style.display = 'none'
+    var lolh = document.createElement('h2')
+    var loltxt = document.createTextNode('Good for u. No need to continue, you are 100% Okremias')
+    lolh.appendChild(loltxt)
+    lolh.style.textAlign = 'center'
+    lolh.color ='#6C6EA0'
+})
  }
 
  function six(){
