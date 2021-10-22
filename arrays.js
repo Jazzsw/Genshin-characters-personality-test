@@ -1,16 +1,4 @@
-var chObj = {
 
-    albedo:{
-        1: 'monstat',
-        2: 'no'
-    },
-    
-    1:{
-        1: 'no'
-
-    }
-
-}
 
 var albedo = []
 var aloy = []
@@ -53,4 +41,9 @@ var xingyan = []
 var yanfei = []
 var yoimiya = []
 var zhongli = []
+
+
+
+var numbers = []
+var names = []
 
